@@ -29,7 +29,12 @@ textarea {
     background: #F8F8F8;
 }
 
-textarea mytext {
+.input1 {
+    width: 756px;
+    height: 298px;
+    flex-shrink: 0;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
     color: #99999A;
     font-size: 14px;
     font-family: Helvetica;
@@ -60,7 +65,22 @@ textarea mytext {
     margin-bottom: 20px;
 }
 
-input {
+.input2 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    color: #99999A;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input3 {
     margin-left: 20px;
     height: 59px;
     width: 370px;
@@ -232,6 +252,7 @@ h2 {
 }
 
 footer {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     margin-top: 39px;
@@ -289,4 +310,8 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.div7, .div8, .div9 {
+    margin: 10px;
 }
