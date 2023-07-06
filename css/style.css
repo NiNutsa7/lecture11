@@ -42,10 +42,10 @@ textarea {
     font-weight: 700;
     line-height: normal;
 }
-.s1 {
+
+.container {
     display: flex;
 }
-
 .div2 {
     margin-left: 144px;
 }
